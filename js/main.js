@@ -5,3 +5,4 @@ const LOWER_CASE_LETTERS = "abcdefghijklmnopqrstuvwxyz";
 const UPPER_CASE_LETTERS = LOWER_CASE_LETTERS.toUpperCase();
 const SPECIAL_CHARACTERS = " |!\"#$%&'^_`*+-~.,:;=<>?@()[]{}/\\";
 
+
