@@ -1,8 +1,8 @@
 "use strict"
 
-const DIGITS = "1234567890";
-const LOWER_CASE_LETTERS = "abcdefghijklmnopqrstuvwxyz";
-const UPPER_CASE_LETTERS = LOWER_CASE_LETTERS.toUpperCase();
-const SPECIAL_CHARACTERS = " |!\"#$%&'^_`*+-~.,:;=<>?@()[]{}/\\";
+import generator from "./generator.js";
 
-
+const config = {
+    lowerCase: 0, upperCase: 0, digits: 0, specialCharacters: 0, length: 8
+}
+generator()
